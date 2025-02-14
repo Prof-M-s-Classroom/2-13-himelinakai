@@ -1,3 +1,3 @@
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/LinkedList210.dir
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/honuk/CS210/2-13-himelinakai-assignment2/cmake-build-debug/CMakeFiles/LinkedList210.dir
+C:/Users/honuk/CS210/2-13-himelinakai-assignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/honuk/CS210/2-13-himelinakai-assignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
