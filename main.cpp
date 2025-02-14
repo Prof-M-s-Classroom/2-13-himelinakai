@@ -93,6 +93,7 @@ public:
        //TODO:Write the function to delete at the given index. Reuse the pre-written functions for edge cases. Account for missing index.
         if (index < 0 || index >= length) {
             cout<<"Index is invalid."<<endl;
+            return;
         }
 
         if (index == 0) {
@@ -137,7 +138,19 @@ public:
 
    void reverselist(){
         //TODO:Write a function to reverse the list using the logic from the slide.
+        Node<T>* prev;
+        Node<T>* curr;
+        Node<T>* next;
+        prev = NULL;
+        curr = head;
+        while (curr != NULL) {
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
 
+        head = prev;
     }
 
     void print() {
@@ -161,5 +174,7 @@ int main() {
     ll->delfirst();
     ll->print();
     ll->dellast();
+    ll->print();
+    ll->reverselist();
     ll->print();
 }
