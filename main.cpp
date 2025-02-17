@@ -120,7 +120,7 @@ public:
         }
 
         if (index == 0) {
-            addHead(value);
+            addhead(value);
         }
 
         if (index == length - 1) {
@@ -171,10 +171,17 @@ int main() {
     ll->add(s2);
     ll->addhead(s3);
     ll->print();
+
     ll->delfirst();
     ll->print();
+
     ll->dellast();
     ll->print();
+
+    ll->insert(2, s3);
+    ll->deleteNode(2);
+    ll->print();
+
     ll->reverselist();
     ll->print();
 }
